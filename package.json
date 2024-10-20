@@ -1,5 +1,8 @@
 {
   "name": "2024-react-nest-boilerplate",
+  "scripts": {
+    "clear": "node ./scripts/clear.js"
+  },
   "workspaces": [
     "packages/*"
   ],
