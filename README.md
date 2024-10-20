@@ -11,7 +11,7 @@ yarn install
 ```
 
 ## Backend
-The backend is developed using NestJS, following best practices and patterns recommended in the official (NestJS documentation)[https://docs.nestjs.com]. This ensures a modular and maintainable structure for scalable applications.
+The backend is developed using NestJS, following best practices and patterns recommended in the official [NestJS documentation](https://docs.nestjs.com). This ensures a modular and maintainable structure for scalable applications.
 
 The application runs by default on port `8080`, but this can be modified according to your needs by configuring the environment variables.
 
@@ -25,9 +25,9 @@ Additionally, make sure that these environment files are appropriately handled a
 ## Frontend
 The frontend is developed using `React` with `TypeScript`, providing a strong foundation for building maintainable and scalable applications. To enhance the development experience, Vite is used as the build tool, offering fast bundling and hot module replacement (HMR) for seamless development workflows.
 
-For the user interface, we are utilizing (Chakra UI)[https://v2.chakra-ui.com/docs/components], a modern and accessible component library for React. `Chakra UI` offers a comprehensive collection of customizable and responsive components that help developers create beautiful, consistent, and functional user interfaces with ease.
+For the user interface, we are utilizing [Chakra UI](https://v2.chakra-ui.com/docs/components), a modern and accessible component library for React. `Chakra UI` offers a comprehensive collection of customizable and responsive components that help developers create beautiful, consistent, and functional user interfaces with ease.
 
-The project is structured following the (Feature-Sliced Design (FSD) methodology)[https://feature-sliced.design/docs/get-started/overview]. This architectural pattern is focused on dividing the codebase by features, ensuring that each feature remains independent and modular. FSD promotes better scalability, separation of concerns, and maintainability as the application grows.
+The project is structured following the [Feature-Sliced Design (FSD) methodology](https://feature-sliced.design/docs/get-started/overview). This architectural pattern is focused on dividing the codebase by features, ensuring that each feature remains independent and modular. FSD promotes better scalability, separation of concerns, and maintainability as the application grows.
 ![Feature-Sliced Design architecture](https://feature-sliced.design/assets/images/visual_schema-e826067f573946613dcdc76e3f585082.jpg)
 
-The frontend is pre-configured with `Vite` default setup, enabling fast builds and minimal configuration. The project structure is optimized for maintainability and growth, aligning with the principles of FSD to ensure a well-organized and scalable application.
+The frontend is pre-configured with [Vite](https://vite.dev) default setup, enabling fast builds and minimal configuration. The project structure is optimized for maintainability and growth, aligning with the principles of FSD to ensure a well-organized and scalable application.
