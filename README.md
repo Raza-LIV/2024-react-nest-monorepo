@@ -28,6 +28,7 @@ The frontend is developed using `React` with `TypeScript`, providing a strong fo
 For the user interface, we are utilizing [Chakra UI](https://v2.chakra-ui.com/docs/components), a modern and accessible component library for React. `Chakra UI` offers a comprehensive collection of customizable and responsive components that help developers create beautiful, consistent, and functional user interfaces with ease.
 
 The project is structured following the [Feature-Sliced Design (FSD) methodology](https://feature-sliced.design/docs/get-started/overview). This architectural pattern is focused on dividing the codebase by features, ensuring that each feature remains independent and modular. FSD promotes better scalability, separation of concerns, and maintainability as the application grows.
+
 <img src="assets/fsd/architecture.png" alt="Feature-Sliced Design architecture">
 
 The frontend is pre-configured with [Vite](https://vite.dev) default setup, enabling fast builds and minimal configuration. The project structure is optimized for maintainability and growth, aligning with the principles of FSD to ensure a well-organized and scalable application.
