@@ -31,7 +31,7 @@ The project is structured following the [Feature-Sliced Design (FSD) methodology
 <picture>
   <source srcset="assets/fsd/dark.png" media="(prefers-color-scheme: dark)">
   <source srcset="assets/fsd/light.png" media="(prefers-color-scheme: light)">
-  <img src="assets/fsd/light.png" alt="Feature-Sliced Design architecture">
+  <img src="assets/fsd/dark.png" alt="Feature-Sliced Design architecture">
 </picture>
 
 The frontend is pre-configured with [Vite](https://vite.dev) default setup, enabling fast builds and minimal configuration. The project structure is optimized for maintainability and growth, aligning with the principles of FSD to ensure a well-organized and scalable application.
