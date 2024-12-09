@@ -4,7 +4,7 @@
 -Placeholder-
 
 ## How to start
-Initially, project is build on `Node` version `22.5.1` and `Yarn` version `4.0.0-rc.45`.
+Initially, project is build on `Node` version `22.5.1` and `Yarn` version `4.5.0`.
 To install all necessary dependencies just run:
 ```bash
 yarn install

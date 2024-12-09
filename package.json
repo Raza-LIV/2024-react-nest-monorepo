@@ -1,5 +1,6 @@
 {
   "name": "2024-react-nest-boilerplate",
+  "version": "0.0.1",
   "scripts": {
     "clear": "node ./scripts/clear.js"
   },
@@ -9,7 +10,7 @@
   "devDependencies": {
     "dotenv": "^16.4.5"
   },
-  "packageManager": "yarn@4.0.0-rc.45",
+  "packageManager": "yarn@4.5.0",
   "dependencies": {
     "eslint": "^9.13.0",
     "eslint-config-prettier": "^9.1.0",
