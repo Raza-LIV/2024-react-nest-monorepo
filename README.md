@@ -26,7 +26,7 @@ yarn install
 ```
 
 ## Backend
-The backend is developed using NestJS, following best practices and patterns recommended in the official [NestJS documentation](https://docs.nestjs.com). This ensures a modular and maintainable structure for scalable applications.
+The backend is developed using NestJS, following best practices and patterns recommended in the official [documentation](https://docs.nestjs.com). This ensures a modular and maintainable structure for scalable applications.
 
 ### Base description
 The application runs by default on port `8080`, but this can be modified according to your needs by configuring the environment variables.
@@ -64,11 +64,13 @@ To create new `Module` via `/modules` folder, let's run:
 nest g module modules/test
 ``` 
 This going to create you a `/modules/test` directory with `test.module.ts` entrypoint file
+
 To create `Controller` run the following command:
 ```bash
 nest g controller modules/test
 ```
 This going to create you a `test.controller.ts` entrypoint via `/modules/test`
+
 To create `Service` run:
 ```bash
 nest g service modules/test
