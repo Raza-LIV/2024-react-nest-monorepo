@@ -6,6 +6,20 @@
 ## How to start
 Initially, project is build on `Node` version `22.5.1` and `Yarn` version `4.5.0`.
 
+If you don't have [Yarn](https://yarnpkg.com) installed on your machine, you still can do all the installation and run all command via your favorite package manager. But if you want to be guided through, just use following instructions.
+
+To install `yarn` package manager globally, run:
+```bash
+npm install -g yarn
+```
+Enable corepack:
+```bash
+corepack enable
+```
+Set yarn version
+```bash
+yarn set version 4.5.0
+```
 To install all necessary dependencies just run:
 ```bash
 yarn install
@@ -24,22 +38,18 @@ Install packages:
 ```bash
 yarn install
 ```
-
 Then, make sure that yuo are in `/packages/backend` directory
 ```bash
 cd /packages/backend
 ```
-
 Let's build our application:
 ```bash
 yarn build
 ```
-
-And start app in `dev` or `prod` mode (with or without hot reloads):
+Start app in `dev` or `prod` mode (with or without hot reloads):
 ```bash
 yarn start:dev
 ```
-
 In the `.env` file, we have specified `PORT` variable which have been used via `main.ts` file, and initially, the the app is going to be hosted on port `8080`
 
 ### Add new Module | Controller | Service
@@ -49,25 +59,21 @@ To install Nest CLI globally, run the following command:
 ```bash
 yarn add -g @nestjs/cli
 ```
-
 To create new `Module` via `/modules` folder, let's run:
 ```bash
 nest g module modules/test
 ``` 
 This going to create you a `/modules/test` directory with `test.module.ts` entrypoint file
-
 To create `Controller` run the following command:
 ```bash
 nest g controller modules/test
 ```
-This going to create you a `test.controller.ts` entrypoint
-
+This going to create you a `test.controller.ts` entrypoint via `/modules/test`
 To create `Service` run:
 ```bash
 nest g service modules/test
 ```
-This going to create you a `test.service.ts` entrypoint
-
+This going to create you a `test.service.ts` entrypoint via `/modules/test`
 ## Frontend
 The frontend is developed using `React` powered by `TypeScript`, providing a strong foundation for building maintainable and scalable applications. To enhance the development experience, Vite is used as the build tool, offering fast bundling and hot module replacement (HMR) for seamless development workflows.
 
@@ -81,18 +87,15 @@ Install packages:
 ```bash
 yarn install
 ```
-
 Then, make sure that you are in `/packages/frontend` directory
 ```bash
 cd /packages/frontend
 ```
-
 Let's build our application:
 ```bash
 yarn build
 ```
-
-And start app in `dev` or `prod` mode (with or without hot reloads):
+Start app in `dev` or `prod` mode (with or without hot reloads):
 ```bash
 yarn start:dev
 ```
