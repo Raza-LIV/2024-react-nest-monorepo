@@ -1,4 +1,4 @@
-# React.js + Nest.js + MongoBD
+# React.js + Nest.js
 
 ## Project overview
 -Placeholder-
