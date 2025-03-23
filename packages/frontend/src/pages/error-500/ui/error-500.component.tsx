@@ -1,7 +1,5 @@
-import React from 'react'
+import React from 'react';
 
 export const Error500Page = () => {
-  return (
-    <div>Error500Page</div>
-  )
-}
+  return <div>Error500Page</div>;
+};

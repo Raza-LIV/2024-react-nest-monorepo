@@ -1,1 +1,1 @@
-export {Error500Page} from './ui/error-500.component'
+export { Error500Page } from './ui/error-500.component';
