@@ -1,8 +1,5 @@
 # React.js + Nest.js
 
-## Project overview
--Placeholder-
-
 ## How to start
 Initially, project is build on `Node` version `22.5.1` and `Yarn` version `4.5.0`.
 
